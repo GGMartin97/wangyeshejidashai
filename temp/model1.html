@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>模板1</title>
+<link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+	<!-- 导航栏 -->
+	<div class="top">
+		<ul style="width: 960px;background: red;margin: auto;height: auto;padding: 0px;">
+			<li class="liNavigation" style="margin: auto; display: inline-block;float:left;"><a href="#" class="aNavigation">导航1</a></li>
+			<li class="liNavigation" style="margin: auto; display: inline-block;float: left;"><a href="#" class="aNavigation">导航2</a></li>
+			<li class="liNavigation" style="margin: auto; display: inline-block;float: left;"><a href="#" class="aNavigation">导航3</a></li>
+			<li class="liNavigation" style="margin: auto; display: inline-block;float: left;"><a href="#" class="aNavigation">导航4</a></li>
+			<li class="liNavigation" style="margin: auto; display: inline-block;float:left;"><a href="#" class="aNavigation">导航5</a></li>
+		</ul>
+	</div>
+	
+	
+	
+	
+	<!-- 返回顶部 -->
+	<button class="gototop"><span>返回顶部</span></button>
+	<script src="../js/jquery-1.11.0.min.js" type="text/javascript"></script>
+	<script src="../js/jquery.gototop.min.js"></script>
+	<script type="text/javascript">
+		$(function(){
+				// $(".gototop").gototop();
+				$(".gototop").gototop({
+					position : 0,
+					duration : 1250,
+					visibleAt : 300,
+					classname : "isvisible"
+				});
+			});
+	</script>
+	<!-- 返回顶部 -->
+	
+</body>
+</html>
