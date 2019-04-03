@@ -9,19 +9,19 @@ def index(request):
 
 def category0(request):
 	category_list=Category0.objects.all()
-	return render(request,'web/category0.html',{'category_list':category_list})
+	return render(request,'web/category.html',{'category_list':category_list})
 
 def category1(request):
 	category_list=Category1.objects.all()
-	return render(request,'web/category1.html',{'category_list':category_list})
+	return render(request,'web/category.html',{'category_list':category_list})
 
 def category2(request):
 	category_list=Category2.objects.all()
-	return render(request,'web/category2.html',{'category_list':category_list})
+	return render(request,'web/category.html',{'category_list':category_list})
 
 def category3(request):
 	category_list=Category3.objects.all()
-	return render(request,'web/category3.html',{'category_list':category_list})
+	return render(request,'web/category.html',{'category_list':category_list})
 
 def post0(request,post_id):
 	post = get_object_or_404(Category0,pk=post_id)

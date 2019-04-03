@@ -98,15 +98,23 @@
 	box-shadow: 0px 0px 20px #888;
 }
 .spiritcontian>span{
-	margin: 30px;
 	display: inline-block;
 	border-bottom: 2px solid #c91c1c;
 }
-.spiritcontian>span>a{
+.spiritcontian>div>span>a{
 	font-size: 18px;
 	text-decoration: none;
 }
 /* cateloge*/
+
+/*  font */
+.headline{
+	margin: 40px;
+	font-size: 40px;
+	text-align: center;
+	border-bottom: 4px solid #c91c1c;
+}
+/*  font */
 
 
 /* martin */
