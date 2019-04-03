@@ -1,4 +1,19 @@
 {% extends 'base.html' %}
 {% load staticfiles %}
 {% block main %}
+	<!-- 正文区 -->
+	<div class="spiritcontian">
+		<span>当前位置：<a href="#">首页</a>&gt;<a href="#">分类</a>&gt;<a href="#">当前位置</a></span>
+		<div style="word-wrap:break-word;padding: 10px 25px;"></div>
+		<div>
+			{{ post.body|safe }}
+		</div>
+	<!-- 上一篇，下一篇 -->
+		<div>
+			<span>下一篇：<a href="#">dudududu</a></span>
+		</div>
+		<div>
+			<span>上一篇：<a href="#">dudududu</a></span>
+		</div>
+	<!-- 上一篇，下一篇 -->
 {% endblock main %}

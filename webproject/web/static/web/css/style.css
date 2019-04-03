@@ -1,4 +1,5 @@
 /* martin */
+/* 主页 */
 .divTop
 	{
 		background: yellow;
@@ -48,12 +49,24 @@
 	box-shadow: 0px 0px 20px #888;
 }
 
+.catalogue-three>a
+{
+	font-size: 18px;
+	text-decoration: none;
+}
+
 .catalogue-three>span{
 	display: block;
 	font-size: 24px;
 	text-align: center;
 	margin-bottom: 15px;
 	color: #c91c1c;
+	width: 50px;
+	height: 10px;
+	border-bottom: 2px solid #c91c1c;
+	margin:auto;
+	padding:0;
+	text-decoration: none;
 }
 /*分类三*/
 
@@ -75,6 +88,26 @@
 	border-left: solid 5px;
 	
 }
+
+/* cateloge */
+.spiritcontian{
+	width: 1060px;
+	margin: auto;
+	margin-top: 15px;
+	border-radius: 5px;
+	box-shadow: 0px 0px 20px #888;
+}
+.spiritcontian>span{
+	margin: 30px;
+	display: inline-block;
+	border-bottom: 2px solid #c91c1c;
+}
+.spiritcontian>span>a{
+	font-size: 18px;
+	text-decoration: none;
+}
+/* cateloge*/
+
 
 /* martin */
 
