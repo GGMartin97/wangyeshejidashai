@@ -48,12 +48,24 @@
 	box-shadow: 0px 0px 20px #888;
 }
 
+.catalogue-three>a
+{
+	font-size: 18px;
+	text-decoration: none;
+}
+
 .catalogue-three>span{
 	display: block;
 	font-size: 24px;
 	text-align: center;
 	margin-bottom: 15px;
 	color: #c91c1c;
+	width: 50px;
+	height: 10px;
+	border-bottom: 2px solid #c91c1c;
+	margin:auto;
+	padding:0;
+	text-decoration: none;
 }
 /*分类三*/
 
