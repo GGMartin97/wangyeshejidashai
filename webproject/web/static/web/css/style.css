@@ -1,3 +1,4 @@
+@charset "utf-8"
 /* martin */
 /* 主页 */
 .divTop
@@ -44,8 +45,9 @@
 	border-radius: 5px;
 	margin-left: 65px;
 	margin-top: 50px;
-	display: inline-block;
+	display: inline-table;
 	box-shadow: 0px 0px 20px #888;
+	height: 300px;
 }
 
 .catalogue-three>a
@@ -220,13 +222,13 @@
 /* 内容图片展示 */
 .demo{padding: 2em 0;}
 .box-picture{
-	width:200px;
-	height: 200px;
+	width:300px;
+	height: 300px;
 	text-align: center;
 	overflow: hidden;
 	position: relative;
 	display: inline-block;
-	margin: 2.88%;
+	margin: 2.88% 2%;
 
 }
 .box-picture:before{
@@ -249,6 +251,11 @@
 .box-picture img{
 	width: 100%;
 	height: auto;
+
+}
+.box-picture a{
+	text-decoration: none;
+	color: white;
 }
 .box-picture .box-picture-content{
 	width: 100%;

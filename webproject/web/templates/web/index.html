@@ -14,7 +14,7 @@
 	<div id="body-div">
 	<!-- 分类一 -->
 	<div class="body-container-p">
-		<a href="{% url 'web:category0' %}" style="visited{color:black;}" class="acatalogue"><span class="spancatalogue">七十华诞</span></a>
+		<a href="{% url 'web:category0' %}" class="acatalogue"><span class="spancatalogue">七十华诞</span></a>
 	</div>
 	<div class="body-container-p">
 		<li class="box-picture">
@@ -38,22 +38,8 @@
 				<span class="post">卡通恶搞造型</span>
 			</div>
 		</li>
-		<li class="box-picture">
-			<img src="{% static 'web/img/1.jpg' %}">
-			<div class="box-picture-content">
-				<h3 class="title">雷神索尔</h3>
-				<span class="post">卡通恶搞造型</span>
-			</div>
-		</li>
 	</div>
 	<div class="body-container-p">
-		<li class="box-picture">
-			<img src="{% static 'web/img/1.jpg' %}">
-			<div class="box-picture-content">
-				<h3 class="title">雷神索尔</h3>
-				<span class="post">卡通恶搞造型</span>
-			</div>
-		</li>
 		<li class="box-picture">
 			<img src="{% static 'web/img/1.jpg' %}">
 			<div class="box-picture-content">
@@ -86,39 +72,33 @@
 			<div id="slider-wrap">
 			  <ul id="slider">
 				 <li>
-					<img src="{% static 'web/img/4.jpg' %}">
+					<img src="{% static 'web/img/2.1.jpg' %}">
 					<div>
-						<h3>Slide #1</h3>
+						<h3>国务院部署全面加强基础科研</h3>
 					</div>                
 				 </li>
 
-				 <li data-color="#3498db">
+				 <li>
+					<img src="{% static 'web/img/2.2.jpg' %}">
 					<div>
-						<h3>Slide #2</h3>
+						<h3>散裂中子源投入运行</h3>
 					</div>
 				 </li>
 
-				 <li data-color="#9b59b6">
+				 <li>
+					<img src="{% static 'web/img/2.3.jpg' %}">
 					<div>
-						<h3>Slide #3</h3>
+						<h3>首只体细胞克隆猴</h3>
 					</div>
 				 </li>
 
-				 <li data-color="#34495e">
+				 <li>
+					<img src="{% static 'web/img/2.4.jpg' %}">
 					<div>
-						<h3>Slide #4</h3>
+						<h3>首次人工创建单染色体</h3>
 					</div>
 				 </li>
-
-				 <li data-color="#e74c3c">
-					<div>
-						<h3>Slide #5</h3>
-					</div>
-				 </li>
-
-
 			  </ul>
-
 			   <!--controls-->
 			  <div class="btns" id="next"><i class="fa fa-arrow-right"></i></div>
 			  <div class="btns" id="previous"><i class="fa fa-arrow-left"></i></div>
@@ -138,6 +118,11 @@
 			<div class="catalogue-two-one"></div>
 			<div class="catalogue-two-one"></div>
 			<div class="catalogue-two-one"></div>
+			<!-- 
+			<a class="catalogue-two-one" href="#">港珠澳大桥、北斗三号 数说2018经济发展重大成就</a>
+			<a class="catalogue-two-one" href="#">回望2018：哪些科技成就值得点赞</a>
+			<a class="catalogue-two-one" href="#">外媒惊叹中国高铁取得成就：全球中国称第二 没人敢说第一</a>
+		-->
 		</div>	
 	</div>
 	<!-- 分类二 -->
@@ -147,21 +132,21 @@
 	</div>
 	<div class="body-container-p">
 		<div class="catalogue-three">
-			<a href="#">test</a>
-			<span></span><div style="word-wrap:break-word;">fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff</div>
+			<a href="#">广东工业大学简介</a>
+			<span></span><div style="word-wrap:break-word;">广东工业大学由原广东工学院、广东机械学院和华南建设学院（东院）于1995年6月合并组建而成。学校已有60年的办学历史，是一所以工为主、工理经管文法艺结合、多科性协调发展的省属重点大学，是广东省高水平大学重点建设高校。</div>
 			<div></div>
 		</div>
 		<div class="catalogue-three">
-			<a href="#">test</a>
+			<a href="#">广工学子登上央视春晚舞台</a>
 			<span></span>
 			<!-- word-wrap:break-word 强制换行-->
-			<div style="word-wrap:break-word;">fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff</div>
+			<div style="word-wrap:break-word;">在央视2018春晚珠海分会场上，广工学子登上春晚舞台，为全国人民送上精彩表演。他们与南方歌舞团、星海音乐学院舞蹈学院、广东舞蹈戏剧学院等专业舞蹈演员一起，出演了分会场直播连线的主体节目——歌曲《勇气》，用自己的演绎向全国人民拜年。</div>
 			<div></div>
 		</div>
 		<div class="catalogue-three">
-			<a href="#">test</a>
+			<a href="#">“力行公益，we are ready”</a>
 			<span></span>
-			<div style="word-wrap:break-word;">fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff</div>
+			<div style="word-wrap:break-word;"> 2019年3月23日，我院红会协助广州血液中心在学校教六天桥下组织全血捐献活动。献血活动的开展，带动广大热心公益的同学积极参与到社会救助中，发扬大学生无私奉献的精神。</div>
 		</div>
 	</div>
 	<!-- 分类三 -->
@@ -171,61 +156,41 @@
 	</div>
 	<div class="body-container-p">
 		<li class="box-picture">
-			<img src="{% static 'web/img/1.jpg' %}">
+			<img src="{% static 'web/img/4.1.jpg' %}">
 			<div class="box-picture-content">
-				<h3 class="title">雷神索尔</h3>
-				<span class="post">卡通恶搞造型</span>
+				<a href="#" class="title">广工QG团队</a>
 			</div>
 		</li>
 		<li class="box-picture">
-			<img src="{% static 'web/img/1.jpg' %}">
+			<img src="{% static 'web/img/4.2.jpg' %}">
 			<div class="box-picture-content">
-				<h3 class="title">雷神索尔</h3>
-				<span class="post">卡通恶搞造型</span>
+				<a href="#" class="title">中国高校计算机大赛我校学子获金奖</a>
 			</div>
 		</li>
 		<li class="box-picture">
-			<img src="{% static 'web/img/1.jpg' %}">
+			<img src="{% static 'web/img/4.3.jpg' %}">
 			<div class="box-picture-content">
-				<h3 class="title">雷神索尔</h3>
-				<span class="post">卡通恶搞造型</span>
-			</div>
-		</li>
-		<li class="box-picture">
-			<img src="{% static 'web/img/1.jpg' %}">
-			<div class="box-picture-content">
-				<h3 class="title">雷神索尔</h3>
-				<span class="post">卡通恶搞造型</span>
+				<a href="#" class="title">乐鱼科技教育团队</a>
 			</div>
 		</li>
 	</div>
 	<div class="body-container-p">
 		<li class="box-picture">
-			<img src="{% static 'web/img/1.jpg' %}">
+			<img src="{% static 'web/img/4.4.jpg' %}">
 			<div class="box-picture-content">
-				<h3 class="title">雷神索尔</h3>
-				<span class="post">卡通恶搞造型</span>
+				<a href="#" class="title">机器人创新团队</a>
 			</div>
 		</li>
 		<li class="box-picture">
-			<img src="{% static 'web/img/1.jpg' %}">
+			<img src="{% static 'web/img/4.5.png' %}">
 			<div class="box-picture-content">
-				<h3 class="title">雷神索尔</h3>
-				<span class="post">卡通恶搞造型</span>
+				<a href="#" class="title">机器人集成中心</a>
 			</div>
 		</li>
 		<li class="box-picture">
-			<img src="{% static 'web/img/1.jpg' %}">
+			<img src="{% static 'web/img/4.6.jpg' %}">
 			<div class="box-picture-content">
-				<h3 class="title">雷神索尔</h3>
-				<span class="post">卡通恶搞造型</span>
-			</div>
-		</li>
-		<li class="box-picture">
-			<img src="{% static 'web/img/1.jpg' %}">
-			<div class="box-picture-content">
-				<h3 class="title">雷神索尔</h3>
-				<span class="post">卡通恶搞造型</span>
+				<a href="#" class="title">创新创业导师面对面</a>
 			</div>
 		</li>
 	</div>
