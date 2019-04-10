@@ -25,13 +25,24 @@
 #catalogue-two{
 	width:450px;
 	height:385px;
-	display: inline-block;
+	float: right;
 }
 
 .catalogue-two-one{
-	height: 110px;
+	padding-top: 45px;
+	padding-bottom: 45px;
+	height: 20px;
 	width: 100%;
 	margin-top: 15px;
+}
+
+.catalogue-two-one>a{
+	text-decoration: none;
+	color: black;
+	text-align: center;
+	font-size: 20px;
+	border-bottom: 2px solid #c91c1c;
+
 }
 /*分类二*/
 
@@ -223,12 +234,12 @@
 .demo{padding: 2em 0;}
 .box-picture{
 	width:300px;
-	height: 300px;
+	height: 200px;
 	text-align: center;
 	overflow: hidden;
 	position: relative;
 	display: inline-block;
-	margin: 2.88% 2%;
+	margin: 2.88% 2.38%;
 
 }
 .box-picture:before{
