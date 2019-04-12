@@ -62,7 +62,6 @@ def post3(request,post_id):
 												'markdown.extensions.codehilite',
 												'markdown.extensions.toc',
 												])
-	category = '/category4'
 	return render(request,'web/post.html',{'post':post})
 
 
