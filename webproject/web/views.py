@@ -31,7 +31,7 @@ def post0(request,post_id):
 												'markdown.extensions.codehilite',
 												'markdown.extensions.toc',
 												])
-	return render(request,'web/post.html',{'post':post},{'category':'/category1'})
+	return render(request,'web/post.html',{'post':post})
 
 def post1(request,post_id):
 	post = get_object_or_404(Category1,pk=post_id)
@@ -41,7 +41,7 @@ def post1(request,post_id):
 												'markdown.extensions.codehilite',
 												'markdown.extensions.toc',
 												])
-	return render(request,'web/post.html',{'post':post},{'category':'/category1'})
+	return render(request,'web/post.html',{'post':post})
 
 def post2(request,post_id):
 	post = get_object_or_404(Category2,pk=post_id)
@@ -51,7 +51,7 @@ def post2(request,post_id):
 												'markdown.extensions.codehilite',
 												'markdown.extensions.toc',
 												])
-	return render(request,'web/post.html',{'post':post},{'category':'/category1'})
+	return render(request,'web/post.html',{'post':post})
 
 
 def post3(request,post_id):
@@ -63,7 +63,7 @@ def post3(request,post_id):
 												'markdown.extensions.toc',
 												])
 	category = '/category4'
-	return render(request,'web/post.html',{'post':post},{'category':category})
+	return render(request,'web/post.html',{'post':post})
 
 
 
