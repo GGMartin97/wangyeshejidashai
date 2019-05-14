@@ -1,7 +1,6 @@
 @charset "utf-8"
 /* martin */
 /* 主页 */
-.a{color:#000;}
 .divTop
 	{
 		background: yellow;
@@ -240,7 +239,7 @@
 	overflow: hidden;
 	position: relative;
 	display: inline-block;
-	margin: 2.88% 2.38%;
+	margin: 2.88% 2.28%;
 
 }
 .box-picture:before{

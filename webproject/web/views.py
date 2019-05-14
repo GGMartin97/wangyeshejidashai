@@ -25,7 +25,6 @@ def category3(request):
 
 def post0(request,post_id):
 	post = get_object_or_404(Category0,pk=post_id)
-	post.category='七十华诞'
 	post.body = markdown.markdown(post.body,extensions=[
 												'markdown.extensions.extra',
 												'markdown.extensions.codehilite',
@@ -35,7 +34,6 @@ def post0(request,post_id):
 
 def post1(request,post_id):
 	post = get_object_or_404(Category1,pk=post_id)
-	post.category='风华正茂'
 	post.body = markdown.markdown(post.body,extensions=[
 												'markdown.extensions.extra',
 												'markdown.extensions.codehilite',
@@ -45,7 +43,6 @@ def post1(request,post_id):
 
 def post2(request,post_id):
 	post = get_object_or_404(Category2,pk=post_id)
-	post.category='广工学子'
 	post.body = markdown.markdown(post.body,extensions=[
 												'markdown.extensions.extra',
 												'markdown.extensions.codehilite',
@@ -56,13 +53,11 @@ def post2(request,post_id):
 
 def post3(request,post_id):
 	post = get_object_or_404(Category3,pk=post_id)
-	post.category='创新活动'
 	post.body = markdown.markdown(post.body,extensions=[
 												'markdown.extensions.extra',
 												'markdown.extensions.codehilite',
 												'markdown.extensions.toc',
 												])
-	category = '/category4'
 	return render(request,'web/post.html',{'post':post})
 
 
